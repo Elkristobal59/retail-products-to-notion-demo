@@ -120,7 +120,7 @@ def main() -> None:
             create_page_in_database(p)
             created += 1
         # Be a good API citizen with a tiny delay to avoid rate limits
-        time.sleep(0.15)
+        time.sleep(0.4)
 
     print(f"✅ Done. Created: {created} | Updated: {updated}")
 
